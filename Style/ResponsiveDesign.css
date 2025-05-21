@@ -1,0 +1,135 @@
+@media (max-width: 1200px){
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width: 991px){
+    .header{
+        padding: 2rem 3%;
+    }
+    section{
+        padding: 10rem 3%;
+    }
+    .services{
+        padding: 7rem;
+    }
+    .testimonial .wrapper{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .contact form .input-box input{
+        width: 100%;    
+    }
+    .footer{
+        padding: 2rem 3%;
+    }
+    
+
+
+}
+@media (max-width: 991px){
+    #menu-icon{
+        display: block;
+    }
+    .navbar{
+         z-index: 999;
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 255px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--main-color);
+        transition: all 0.5s ease;
+        backdrop-filter: blur(10px);
+    }
+
+
+
+    .navbar a{
+        display: flex;
+        padding: 17px;
+        font-size: 22px;
+    }
+    
+    .navbar.active {
+    right: 0;
+    }
+
+    .home{
+        flex-direction: column;
+    }
+    .home-content h3{
+        font-size: 2.6rem;
+    }
+   .home-content h1{
+        font-size: 5rem;
+    }
+    .home-content{
+         order: 2;
+         margin-left: 1rem;
+    }
+    .home-img img{
+        width: 50vw;
+        height: 50vw;
+       
+        margin-top: 4rem;
+    }
+    .about{
+        flex-direction: column-reverse;
+    }
+    .about-img img{
+        width: 40vw;
+        height: 40vw;
+        margin-top: 4rem;
+    }
+    .services h2{
+        margin-bottom: 3rem;
+    }
+     .testimonial-item p{
+    font-size: 1.8rem;
+ }
+ .testimonial-box img{
+ width: 20vw;
+    height: 20vw;
+ }
+ .testimonial-item{
+  
+    max-width: 400px;
+ }
+}
+@media (max-width: 617px){
+  .home-img img{
+            width: 60vw;
+        height: 60vw;
+        margin-top: 8rem;
+  }
+  .about-img img{
+    width: 40vw;
+    height: 40vw;
+    margin-top: 4rem;
+  }
+ .testimonial-box img{
+ width: 25vw;
+    height: 25vw;
+ }
+
+ .testimonial-item p{
+    font-size: 1.8rem;
+ }
+
+
+}
+
+@media (max-width: 700px){
+ .services-container{
+    flex-direction: column;
+}
+}
+@media (max-width: 617px){
+    html{
+        font-size: 50%;
+    }
+
+}
